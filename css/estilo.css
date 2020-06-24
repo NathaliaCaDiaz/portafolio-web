@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3f3f3;
+    font-family: 'MuseoModerno', cursive;
+}
+.contenedor {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* header*/
+header{
+    padding: 40px 0;
+    
+}
+header .logo{
+    text-align: center;
+    margin-bottom:40px ;
+}
+header .logo p{
+    color: #9b9b9b;
+}
+header form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+header .barra-busqueda{
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    padding: 0 2px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    
+
+}
+header .categorias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #D3FFEF;
+}
+header .categorias a{
+    color: #9b9b9b;
+    margin: 10px 20px;
+    font-weight: 500;
+
+}
+header .categorias a.activo{
+    color: black;
+}
+
+/*contenido*/
+.contenido {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: auto;
+}
+.imagen{
+    margin: 10%;
+    padding: 25px;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    left: 50px;
+    width: 50%;
+    top:-100px;
+    
+
+}
+.ola {
+    justify-content: center;
+} 
+.texto {
+    justify-content: center;
+}
+.row{
+    padding: 5%;
+}
+.hola{
+    text-align: center;
+   
+}
+/*habilidades*/ 
+.soy{
+    text-align: center;
+}
+.progress{
+    animation: progress 2s;
+}
+@keyframes progress{
+    0%{
+        width: 0%
+    }
+    100% {
+        width: 100%;
+    }
+}
+.progress{
+     background-color: #fff;
+}
+.progress-bar{
+   height: 20 px;
+   background-color: violet; 
+   border-radius: px;
+   width: 100%;
+   position: relative;
+   
+}
+
+.bar{
+    background: rosybrown;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, blu0, 3);
+    border-radius: 3px;
+    overflow: hidden;
+   
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: violet;
+}
+
+/*
+.html{
+    width: 70%;
+    animation: html 2s;
+}
+.css{
+    width: 40%;
+    animation: css 2s;
+}
+.bootstrap{
+    width: 50%;
+    animation:bootstrap 2s;
+}
+@keyframes html{
+    0%{
+        width: 0%
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%
+    }
+    100% {
+        width: 40%;
+    }
+}
+@keyframes bootstrap{
+    0%{
+        width: 0%
+    }
+    100% {
+        width: 50%;
+    }
+}
+*/
+
+/*footer*/
+
+footer{
+    width: 100%;
+    max-width: max-content;
+    margin: auto;
+    background-color: #D3FFEF;
+}
