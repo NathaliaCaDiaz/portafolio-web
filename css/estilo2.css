@@ -22,6 +22,7 @@ p{
 /* header*/
 header{
     padding: 40px 0;
+    
 }
 header .logo{
     text-align: center;
@@ -35,7 +36,6 @@ header form{
     display: flex;
     justify-content: center;
     margin: 20px;
-   
 }
 header .barra-busqueda{
     width: 70%;
@@ -47,6 +47,7 @@ header .barra-busqueda{
     border: none;
     text-align: center;
     font-size: 16px;
+    
 
 }
 header .categorias{
@@ -64,6 +65,7 @@ header .categorias a{
 header .categorias a.activo{
     color: black;
 }
+
 /*row*/
 .row{
     padding: 10px 10px;
